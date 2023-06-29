@@ -1,0 +1,17 @@
+@id=0061e246-46d8-401f-b895-ac71439a6f76
+
+PUT http://localhost:5130/api/breakfasts/{{id}}
+Content-Type: application/json
+
+{
+  "name": "Not Vegan Sunshine",
+  "description": "Not Vegan Sunshine! Join us for a healty vegan breakfast!",
+  "startDateTime": "2023-06-28T08:00:00",
+  "endDateTime": "2023-06-28T11:00:00",
+  "savory": [
+    "Oatmeal"
+  ],
+  "sweet": [
+    "Cookie"
+  ]
+}

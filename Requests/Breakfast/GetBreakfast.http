@@ -1,0 +1,8 @@
+@id=228ae57f-3349-4d9c-862c-9819bbcbd805
+
+GET http://localhost:5130/api/breakfasts/{{id}}
+
+
+###
+
+GET http://localhost:5130/api/breakfasts
